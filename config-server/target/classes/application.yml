@@ -1,0 +1,11 @@
+spring:
+#  profiles:
+#    active: development
+  cloud:
+    config:
+      server:
+        git:
+          uri: D:\configserverfile
+#          serachPaths: development*
+server:
+  port: 8888
